@@ -1,0 +1,19 @@
+body {
+    padding: 15px;
+    background-color: #e4e978;
+}
+
+
+
+
+article {
+  padding: 5px 15px;
+    margin: 15px 10px;
+    background-color:#f2f4c0;
+    
+    border: 1px solid #b2ad7d ;  
+}
+.artic {
+    color: #4c7658;
+    font-style: italic;
+}
