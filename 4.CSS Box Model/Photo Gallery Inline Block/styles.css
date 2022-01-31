@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE;
+}
+
+ul.gallery {
+    list-style: none;
+    border-width: 0.4rem;
+    border-color: black;
+    border-style: solid;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li img {
+    border: 5px solid black;
+}

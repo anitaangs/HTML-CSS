@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+    margin: 0;
+    padding: 40px 80px;
+}
+
+h1, h2, p{
+    color: rgb(51, 51, 51);
+}
+
+img {
+    width: 400px;
+}
+
+article, aside{
+    display: inline-block;
+    vertical-align: top;
+}
+
+article{
+    width: 65%;
+}
+
+aside{
+    width: 25%;
+}
+
+header{
+    margin-bottom: 50px;
+}
