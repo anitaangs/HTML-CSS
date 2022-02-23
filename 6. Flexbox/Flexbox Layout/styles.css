@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    background-color: lightgrey;
+    gap: 1rem;
+    
+    flex-wrap: wrap;
+    padding: 2rem;
+    
+}
+
+header, main, aside, footer {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+header, footer {
+    width: 100%;
+    
+}
+
+main {
+    width: calc(70% - 0.5rem);
+   
+}
+
+aside {
+    width: calc(30% - 0.5rem);
+
+}
+
+body header {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
+}
+
+body main {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
+}
+
+body aside {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
+}
+
+body footer {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
+}

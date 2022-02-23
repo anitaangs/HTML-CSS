@@ -1,0 +1,13 @@
+body, ul, li {
+    display: flex;
+}
+
+ul {
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+li {
+    border: 20px solid black;
+}

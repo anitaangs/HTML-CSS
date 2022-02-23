@@ -1,0 +1,44 @@
+
+.container {
+    max-width: 65vw;
+    text-align: center;
+    display: flex;
+}
+
+span {
+    text-align: center;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+.week {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.week span {
+    width: 25%;
+    height: 4rem;
+}
+
+.week span:nth-child(1) 
+.week span:nth-child(7){
+    width: 100%;
+}
+
+.week span:nth-child(8) 
+.week span:nth-child(9){
+    width: 50%;
+}
+
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+.notes span {
+    flex-grow: 1;
+}
